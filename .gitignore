@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database
+*.sqlite
+*.db
+*.sqlite3
+
+# Alembic
+app/alembic/versions/*.py
+!app/alembic/versions/__init__.py
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.pytest_cache/
+.tox/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Type checking
+.mypy_cache/
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Profiling
+*.prof
